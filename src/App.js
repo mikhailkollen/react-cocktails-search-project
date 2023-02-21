@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
-      <Router basename="/react-cocktails-search-project">
+      <Router basename="/">
         <Navbar></Navbar>
         <Routes>
           <Route path="/" element={<Home />}>
